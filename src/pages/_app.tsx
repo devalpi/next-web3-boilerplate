@@ -1,13 +1,15 @@
 import { NextUIProvider } from '@nextui-org/react'
 import type { AppProps } from 'next/app'
-import '../../styles/globals.css'
+import { DefaultLayout } from '../components/templates/DefaultLayout'
 import Web3Provider from '../providers/web3React'
 
 function MyApp({ Component, pageProps }: AppProps) {
   return (
     <NextUIProvider>
       <Web3Provider>
-        <Component {...pageProps} />
+        <DefaultLayout>
+          <Component {...pageProps} />
+        </DefaultLayout>
       </Web3Provider>
     </NextUIProvider>
   )
