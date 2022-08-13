@@ -11,7 +11,19 @@
     "format:fix": "prettier --write --ignore-path .gitignore ."
   },
   "dependencies": {
+    "@coinbase/wallet-sdk": "^3.4.2",
     "@nextui-org/react": "^1.0.0-beta.9",
+    "@walletconnect/ethereum-provider": "^1.8.0",
+    "@web3-react/coinbase-wallet": "8.0.34-beta.0",
+    "@web3-react/core": "8.0.35-beta.0",
+    "@web3-react/eip1193": "8.0.26-beta.0",
+    "@web3-react/empty": "8.0.20-beta.0",
+    "@web3-react/gnosis-safe": "8.0.6-beta.0",
+    "@web3-react/metamask": "8.0.28-beta.0",
+    "@web3-react/network": "8.0.27-beta.0",
+    "@web3-react/types": "8.0.20-beta.0",
+    "@web3-react/url": "8.0.25-beta.0",
+    "@web3-react/walletconnect": "8.0.35-beta.0",
     "next": "12.2.5",
     "react": "18.2.0",
     "react-dom": "18.2.0"
